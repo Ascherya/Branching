@@ -1,0 +1,12 @@
+mysql --host=127.0.0.1 --user=root
+
+sudo mysql -u root
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mvsr';
+
+exit
+
+sudo service mysql restart
+
+
+mysql --host=127.0.0.1 --user=root
